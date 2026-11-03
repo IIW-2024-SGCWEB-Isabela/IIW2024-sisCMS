@@ -1,0 +1,11 @@
+{
+"name":"CMS SN-2026",
+"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+"features":{
+  "ghcr.io/devcontainers/feactures/docker-in-docker:2":{}
+},
+"forwardPorts": [0000],
+"portsAttributes": {
+  "0000": {label": "Site (CMS)", "onAutoForward": "notify"}
+}
+}
